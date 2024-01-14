@@ -1,0 +1,19 @@
+#canvas {
+    margin: 0 0;
+    display: block;
+    background-color: antiquewhite;
+    width: 100vw;
+    height: auto;
+}
+
+@media screen and (min-aspect-ratio: 1/1) {
+    #canvas {
+        height: 100vh;
+        width: auto;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
